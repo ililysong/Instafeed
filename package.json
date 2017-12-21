@@ -1,0 +1,18 @@
+{
+    "name": "radiovennao",
+    "version": "1.0.0",
+    "description": "radio app",
+    "engines": {
+        "node": "8.9.3"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "radiovennao",
+        "instafeed"
+    ],
+    "dependencies": {
+        "express": "^4.16.2"
+    }
+}
