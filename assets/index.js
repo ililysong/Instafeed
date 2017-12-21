@@ -1,6 +1,6 @@
-var feed = new Instafeed({
-    get: 'tagged',
-    tagName: 'radiovennao',
-    clientId: '1659861888f646d7b5a6a53ced2999c5'
+var userFeed = new Instafeed({
+    get: 'user',
+    userId: '4189158310',
+    accessToken: '4189158310.1677ed0.c6ed85fcdb654715bec731947ceda35f'
 });
-feed.run();
+userFeed.run();
